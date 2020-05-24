@@ -68,6 +68,7 @@ nav{
     color: #008;
     background: #bceffd;
     width: 96%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
 }
 ul{
     list-style-type: none;
@@ -94,6 +95,7 @@ ul li a.active:hover{
 .menu li a:hover{
     border-bottom: solid 4px #008;
     margin-bottom: -4px;
+    cursor: pointer;
 }
 
 /*Estilos video*/
@@ -103,15 +105,27 @@ ul li a.active:hover{
 
 .vid video{
     width: inherit;
-    margin-top: -10px;
+    margin-top: -25px;
 }
+.videoprim {
+    clip-path: polygon(0% 8%, 100% 3%, 100% 100%, 0% 85%);
+}
+    
+.videosec {
+    clip-path: polygon(0% 0%, 100% 15%, 100% 90%, 0% 100%);
+    margin-top: -55px !important;}
     
 /*Estilos imagen*/
 .imagen {
     width: 100%;
+    clip-path: polygon(0% 8%, 100% 0%, 100% 60%, 0% 50%, 80% 100%);
+    margin-top: -30px !important;
 }
 
 /*Estilos footer*/
+.center {
+    background: #bceffd;
+}
 .center p{
     font-size: large;
 }

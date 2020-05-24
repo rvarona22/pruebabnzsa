@@ -7,10 +7,10 @@ class Video extends React.Component {
         return (
             <React.Fragment>      
                 <div className='vid'>
-                    <video loop autoPlay muted>
+                    <video className='videoprim' loop autoPlay muted>
                       <source src="https://interactive-examples.mdn.mozilla.net/media/examples/flower.mp4" type="video/mp4" />
                     </video>
-                    <video loop autoPlay muted>
+                    <video className='videosec' loop autoPlay muted>
                       <source src={videopersona} type="video/mp4" />
                     </video>
                 </div>
